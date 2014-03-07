@@ -3,9 +3,9 @@ Dennis the DNS Menace
 
 *Tailored DNS responses*
 
-Dennis is a DNS server which can serve customized DNS responses on a per user basis.
+Dennis is a DNS server which can serve customised DNS responses on a per user basis.
 
-On its own Dennis isn't very usefull but by adding a DNS recursor and a HTTP(S) proxy, Dennis can bypass geo-blocking for thousands of users.
+On its own Dennis isn't very useful but by adding a DNS recursor and a HTTP(S) proxy, Dennis can bypass geo-blocking for thousands of users.
 
 How it works
 ---
@@ -46,7 +46,7 @@ Requirements:
 	`dnsfwd-addr`: DNS server address for forwarding requests  
 	`portal-addr`: this is the address unregistered users will get, works like a WiFi Portal  
 
-0. Create a test user identifief by IP `127.0.0.1` and load it into Redis:
+0. Create a test user identified by IP `127.0.0.1` and load it into Redis:
 	
 	    $ cat > data.txt
 	        SET gateway:90d1ed58-399e-5ce9-93d8-28f0c86c80e0 53e48371-0bda-4f45-8d03-b0943c89c4ea
@@ -79,7 +79,7 @@ Security
 
 Don't run Dennis on a privileged port, use firewall rules instead to make Dennis available on TCP & UDP port 53:
 
-Redirect tcp/udp traffic from external:53 to internal:8054 
+Redirect TCP/UDP traffic from external:53 to internal:8054 
 
 	$ iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 53 -j REDIRECT --to-port 8054
 	$ iptables -A PREROUTING -t nat -i eth0 -p udp --dport 53 -j REDIRECT --to-port 8054
