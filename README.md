@@ -88,9 +88,7 @@ Redirect tcp/udp traffic from external:53 to internal:8054
 Query Process
 ---
 
-![alt tag](https://raw.github.com/namsral/dennis/dennis_query_process.svg)
-
-![Logic](file:///Users/lars/Projects/Dennis/Dennis Query Process.svg)
+![Logic](https://raw.github.com/namsral/dennis/master/dennis_query_process.png)
 
 License
 ---
