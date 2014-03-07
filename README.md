@@ -26,7 +26,7 @@ Requirements:
 
 0. Build Dennis, make sure you install the dependancies first:
 
-		$ go build dennis.go helpders.go
+		$ go build dennis.go
 
 0. Run Denis with a config file:
 
