@@ -35,7 +35,7 @@ Requirements:
 		    bind-addr = 127.0.0.1:8054
 		    redis-addr = 127.0.0.1:6379
 		    dnsfwd-addr = 127.0.0.1:8053
-		    portal-addr = 185.24.222.68
+		    portal-addr = 127.0.0.1
 		    logfile = /tmp/dennis.log
 
 		$ ./dennis -config dennis.conf
