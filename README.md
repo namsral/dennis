@@ -20,7 +20,7 @@ Requirements:
 
 - Redis instance
 - DNS recursor like PowerDNS *(for test purposes you can use your ISPs or Google's DNS server)*
-- HTTP proxy like Nginx *(To proxy HTTPS, you'll require support for rfc3546)*
+- HTTP proxy like Nginx *(To proxy HTTPS support for Server Name Indication, rfc6066, is required)*
 
 **Build, configure and run Dennis.**
 
