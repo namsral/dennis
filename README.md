@@ -3,7 +3,7 @@ Dennis the DNS Menace
 
 *Tailored DNS responses*
 
-Dennis is a DNS server which can serve customised DNS responses on a per user basis.
+Dennis is a DNS server which can serve customized DNS responses on a per user basis.
 
 On its own Dennis isn't very useful but by adding a DNS recursor and a HTTP(S) proxy, Dennis can bypass geo-blocking for thousands of users.
 
